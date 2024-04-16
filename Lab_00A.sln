@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_Q5_pointers", "_Q5_pointer
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_Q6_swap", "_Q6_swap\_Q6_swap.vcxproj", "{B072058C-ED29-42E4-A3DF-052598BAEE43}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab 01 17-04-24 at 08.00 Ex 01", "Lab 01 pointers structures\Lab 01 17-04-24 at 08.00 Ex 01\Lab 01 17-04-24 at 08.00 Ex 01.vcxproj", "{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{B072058C-ED29-42E4-A3DF-052598BAEE43}.Release|x64.Build.0 = Release|x64
 		{B072058C-ED29-42E4-A3DF-052598BAEE43}.Release|x86.ActiveCfg = Release|Win32
 		{B072058C-ED29-42E4-A3DF-052598BAEE43}.Release|x86.Build.0 = Release|Win32
+		{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}.Debug|x64.ActiveCfg = Debug|x64
+		{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}.Debug|x64.Build.0 = Debug|x64
+		{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}.Debug|x86.ActiveCfg = Debug|Win32
+		{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}.Debug|x86.Build.0 = Debug|Win32
+		{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}.Release|x64.ActiveCfg = Release|x64
+		{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}.Release|x64.Build.0 = Release|x64
+		{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}.Release|x86.ActiveCfg = Release|Win32
+		{59F9A5DB-D1A3-4E66-9D30-CDC00484FAEE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
