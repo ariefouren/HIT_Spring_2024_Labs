@@ -14,9 +14,11 @@ const int MINUTES_PER_HOUR = 60;
 const int HOURS_PER_DAY = 24;
 
 // define a structure to represent time
-typedef struct time {
-    int hours, minutes, seconds;
-} Time;
+struct Time {
+    int hours;      // 0 .. 23
+    int minutes;    // 0 .. 59
+    int seconds;    // 0 .. 59
+};
 
 // the function converts the time value to a standard form
 void standardize(Time& time) {
@@ -35,15 +37,17 @@ void standardize(Time& time) {
 // of the canonicalized time values
 Time* inputTimeArray(int& n) {
     Time* result;
-    cout << "Enter the number of values:" << endl;
+    cout << "Enter the number of values: ";
     cin >> n;
-    result = new Time[n];
+    result = new Time[n];       // allocate dynamic array
     for (int i = 0; i < n; i++) {
-        cout << "Enter hour, minutes, seconds: " << endl;
-        cin >> result[i].hours >> result[i].minutes >> result[i].seconds;
-        standardize(result[i]);
+        cout << "Enter hour, minutes, seconds: ";
+        cin >> result[i].hours 
+            >> result[i].minutes 
+            >> result[i].seconds;
+        standardize(result[i]);     // convert to standard form
     }
-    return result;
+    return result;      // return the pointer to the array of time values
 }
 
 // the function prints the time in the standard format
@@ -54,14 +58,16 @@ void printTime(const Time& time)
         << (time.seconds < 10 ? "0" : "") << time.seconds << endl;
 
 }
+
 // the function prints the array of time values 
-// in the standard form
 void printTimeArray(Time timesArr[], int n) {
     for (int i = 0; i < n; i++) {
         printTime(timesArr[i]);
     }
 }
 
+// the main function reads the time values,
+// stores them in an array of structures and then prints them
 int main()
 {
     int n = 0;
