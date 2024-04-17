@@ -23,7 +23,15 @@ void standardize(Time &time)
 // of the canonicalized time values
 Time* inputTimeArray(int &n)
 {
+	cin >> n;
+	Time* newArray = new Time[n];
+
 	
+	for (int i = 0; i < n; i++)
+	{
+		cin >> newArray[i].hours;
+	}
+	return newArray;
 }
 
 // the function prints the array of time values 
