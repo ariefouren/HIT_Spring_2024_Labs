@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab 01 17-04-24 at 10.00 Ex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab 01 17-04-24 at 10.00 Ex 04 - Time", "Lab 01 pointers structures\Lab 01 17-04-24 at 10.00 Ex 04 - Time\Lab 01 17-04-24 at 10.00 Ex 04 - Time.vcxproj", "{784F2E6F-A024-4120-BC52-653786C3A37B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab 04 AccountQueue", "Lab 04 AccountQueue\Lab 04 AccountQueue.vcxproj", "{D627B53F-D810-4474-BA79-0A548E25FDB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{784F2E6F-A024-4120-BC52-653786C3A37B}.Release|x64.Build.0 = Release|x64
 		{784F2E6F-A024-4120-BC52-653786C3A37B}.Release|x86.ActiveCfg = Release|Win32
 		{784F2E6F-A024-4120-BC52-653786C3A37B}.Release|x86.Build.0 = Release|Win32
+		{D627B53F-D810-4474-BA79-0A548E25FDB6}.Debug|x64.ActiveCfg = Debug|x64
+		{D627B53F-D810-4474-BA79-0A548E25FDB6}.Debug|x64.Build.0 = Debug|x64
+		{D627B53F-D810-4474-BA79-0A548E25FDB6}.Debug|x86.ActiveCfg = Debug|Win32
+		{D627B53F-D810-4474-BA79-0A548E25FDB6}.Debug|x86.Build.0 = Debug|Win32
+		{D627B53F-D810-4474-BA79-0A548E25FDB6}.Release|x64.ActiveCfg = Release|x64
+		{D627B53F-D810-4474-BA79-0A548E25FDB6}.Release|x64.Build.0 = Release|x64
+		{D627B53F-D810-4474-BA79-0A548E25FDB6}.Release|x86.ActiveCfg = Release|Win32
+		{D627B53F-D810-4474-BA79-0A548E25FDB6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
