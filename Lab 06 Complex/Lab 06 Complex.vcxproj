@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d627b53f-d810-4474-ba79-0a548e25fdb6}</ProjectGuid>
-    <RootNamespace>Lab04AccountQueue</RootNamespace>
+    <ProjectGuid>{67a0d226-e691-410d-9759-3897df9c3886}</ProjectGuid>
+    <RootNamespace>Lab06Complex</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AccountQueueTester.cpp" />
+    <ClInclude Include="Complex-template.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AccountQueue.h" />
-    <ClInclude Include="BankAccount.h" />
+    <ClCompile Include="ComplexTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d627b53f-d810-4474-ba79-0a548e25fdb6}</ProjectGuid>
-    <RootNamespace>Lab04AccountQueue</RootNamespace>
+    <ProjectGuid>{ed78101e-ae4c-4ee7-bba3-9a572f058fee}</ProjectGuid>
+    <RootNamespace>Lab03Classes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AccountQueueTester.cpp" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Rectangle.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AccountQueue.h" />
-    <ClInclude Include="BankAccount.h" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="CircleTest.cpp" />
+    <ClCompile Include="CirecleTest.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="PointTest.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="RectangleTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d627b53f-d810-4474-ba79-0a548e25fdb6}</ProjectGuid>
-    <RootNamespace>Lab04AccountQueue</RootNamespace>
+    <ProjectGuid>{4665b235-145d-42d1-b4c5-77dcbf317c4f}</ProjectGuid>
+    <RootNamespace>Lab02Referencesandstructures</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AccountQueueTester.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AccountQueue.h" />
-    <ClInclude Include="BankAccount.h" />
+    <ClCompile Include="SaveTheDates.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

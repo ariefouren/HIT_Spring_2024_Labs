@@ -37,7 +37,24 @@ int main()
     BankAccount* removedAccount = queue.dequeue();
     cout << "Removed account: \n" << *removedAccount << endl;
 
+    // remove an account from the queue
+    removedAccount = queue.dequeue();
+    cout << "Removed account: \n" << *removedAccount << endl;
+
+    // remove an account from the queue
+    removedAccount = queue.dequeue();
+    cout << "Removed account: \n" << *removedAccount << endl;
+
+
     // display the queue
+    cout << "The queue contains: " << endl;
+    cout << queue << endl;
+
+    // add the accounts again to the queue
+    queue.enqueue(aliceAccount);
+    
+    // display the queue
+    cout << "Alice's account is added again" << endl;
     cout << "The queue contains: " << endl;
     cout << queue << endl;
 
