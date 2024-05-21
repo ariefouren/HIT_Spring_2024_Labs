@@ -1,9 +1,0 @@
-name: shift right
-source code: "input: 'XXYYXY'\r\nblank: ' '\r\nstart state: start\r\ntable:\r\n  # \r\n  start:\r\n    ' '  : {write: $, R: accept}\r\n    X    : {write: $, R: sawX}\r\n    Y    : {write: $, R: sawY}\r\n  # \r\n  sawX:\r\n    X    : {write: X, R: sawX}\r\n    Y    : {write: X, R: sawY}\r\n    ' '  : {write: X, L: goBack}\r\n  \r\n  sawY:\r\n    X    : {write: Y, R: sawX}\r\n    Y    : {write: Y, R: sawY}\r\n    ' '  : {write: Y, L: goBack}\r\n  \r\n  goBack:\r\n    X    : {write: X, L: goBack}\r\n    Y    : {write: Y, L: goBack}\r\n    $    : {write: $, R: accept}\r\n  \r\n  accept:\r\n  \r\n  reject:\r\n\r\n\r\n# Exercises:\r\n\r\n# • Modify the machine to always halt on the leftmost digit\r\n#   (regardless of the number's length).\r\n#   Hint: add a state between carry and done.\r\n\r\n# • Make a machine that adds 2 instead of 1.\r\n#   Hint: 2 is '10' in binary, so the last digit is unaffected.\r\n#   Alternative hint: chain together two copies of the machine from\r\n#   the first exercise (renaming the states of the second copy).\r\n\r\n# • Make a machine to subtract 1.\r\n#   To simplify things, assume the input is always greater than 0.\r\n"
-positions:
-  start: {x: 395.44, y: 79.81}
-  sawX: {x: 487.83, y: 245.7}
-  sawY: {x: 287.6, y: 245.84}
-  goBack: {x: 374.37, y: 444.31}
-  accept: {x: 769.04, y: 80.46}
-  reject: {x: 775.72, y: 215.65}
