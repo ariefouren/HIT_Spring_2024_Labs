@@ -1,4 +1,4 @@
-// File: matrix.h
+// File: matrix.h //
 // definition of the matrix class
 #include <iostream>
 
